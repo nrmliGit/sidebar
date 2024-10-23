@@ -1,0 +1,19 @@
+.ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  letter-spacing: 0.3px;
+  margin-right: 10px;
+
+  font-size: 16px;
+  > li {
+    cursor: pointer;
+    color: #0000008c;
+    > i {
+      font-size: 10px;
+    }
+    &:hover {
+      color: #212529;
+    }
+  }
+}

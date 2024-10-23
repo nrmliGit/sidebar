@@ -1,0 +1,18 @@
+.header {
+  padding-inline: 12px;
+  height: 58px;
+  border-bottom: var(--border-template);
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  justify-content: space-between;
+  & > button {
+    background-color: #0d6efd;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 6px;
+    &:hover {
+      background-color: #0658d2;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.sidebar {
+  border-right: var(--border-template);
+  overflow: hidden;
+
+  & > div {
+    &:first-of-type {
+      height: 58px;
+      border-bottom: var(--border-template);
+      display: flex;
+      align-items: center;
+      padding: 14px 20px;
+      font-size: 19.2px;
+      background-color: #f8f9fa;
+      > p {
+        cursor: text;
+      }
+    }
+
+    > ul {
+      :not(:last-child) {
+        border-bottom: var(--border-template);
+      }
+      > li {
+        padding: 16px;
+        color: #636464;
+        cursor: pointer;
+        &:hover {
+          background-color: #dededeff;
+        }
+      }
+    }
+  }
+}

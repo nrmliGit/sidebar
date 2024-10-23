@@ -1,0 +1,22 @@
+.dropdown {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  right: 12px;
+  top: 52px;
+  > ul {
+    padding: 8px 0px;
+    :last-child {
+      border-top: var(--border-template);
+      padding-top: 10px;
+      margin-top: 8px;
+    }
+    > li {
+      padding: 6px 16px;
+    }
+  }
+  &.opened {
+    display: none;
+  }
+}

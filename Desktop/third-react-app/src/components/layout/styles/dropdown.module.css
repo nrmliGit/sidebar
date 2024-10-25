@@ -5,6 +5,7 @@
   border-radius: 6px;
   right: 12px;
   top: 52px;
+  display: none;
   > ul {
     padding: 8px 0px;
     :last-child {
@@ -17,6 +18,6 @@
     }
   }
   &.opened {
-    display: none;
+    display: block;
   }
 }

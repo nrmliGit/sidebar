@@ -20,10 +20,14 @@
       :not(:last-child) {
         border-bottom: var(--border-template);
       }
-      > li {
+      > li > a {
+        display: block;
         padding: 16px;
         color: #636464;
         cursor: pointer;
+        &[class="active"] {
+          background-color: #dededeff;
+        }
         &:hover {
           background-color: #dededeff;
         }

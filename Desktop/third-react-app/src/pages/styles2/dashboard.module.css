@@ -1,0 +1,13 @@
+.main {
+  > h1 {
+    font-size: 40px;
+    margin: 20px 0 8px;
+    font-weight: 500;
+  }
+  > p {
+    padding-bottom: 18px;
+    > span {
+      color: #d63384;
+    }
+  }
+}

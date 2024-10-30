@@ -1,0 +1,9 @@
+.product {
+  > div {
+    width: 250px;
+    > img {
+      width: 100%;
+      vertical-align: middle;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.products {
+  padding-block: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.product {
+  border: var(--border-template);
+  border-radius: 6px;
+
+  > div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    > img {
+      width: 100%;
+      height: 100%;
+      vertical-align: middle;
+    }
+  }
+}

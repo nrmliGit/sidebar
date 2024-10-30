@@ -17,8 +17,8 @@ export default function Dropdown({isOpened}){
   return(
     <div className={`${styles.dropdown} ${isOpened ? styles.opened : ''}`}>
       <ul>
-        {datas.map((item)=>(
-          <li>{item.name}</li>
+        {datas.map((item, index)=>(
+          <li key={index}>{item.name}</li>
         ))}
         
       </ul>

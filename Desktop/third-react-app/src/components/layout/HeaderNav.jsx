@@ -13,10 +13,10 @@ export default function HeaderNav(){
     return(
         <nav>
             <ul className={styles.ul}>
-            {datas.map((item)=>(
-                    <li>{item.name}</li>
+            {datas.map((item, index)=>(
+                    <li key={index}>{item.name}</li>
                 ))}
-                <li onClick={handleOnDropdownActive}>Dropdown <i class="fa-solid fa-chevron-down"></i></li>
+                <li onClick={handleOnDropdownActive}>Dropdown <i className="fa-solid fa-chevron-down"></i></li>
             </ul>
         <Dropdown isOpened={isOpened}/>
         </nav>
